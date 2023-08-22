@@ -1,0 +1,28 @@
+body 
+{
+    background-image: url(../assets/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    align-items: center; 
+    justify-content: center; 
+    display: flex;
+}
+
+.image_container 
+{
+    position: relative;
+    border-radius: 50px;
+    object-fit: cover;
+    display: block;
+    transition: 1s;
+    align-items: center; 
+    justify-content: center; 
+}
+.image_container img 
+{
+    width: 30vw;
+    height: 48vw;
+    border-radius: 50px;
+    object-fit: cover;
+    overflow: hidden;
+}

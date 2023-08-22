@@ -1,0 +1,149 @@
+@font-face
+{
+    font-family: AnimeAce;
+    src:url(animeace.ttf);
+}
+
+body 
+{
+  background-image: url(./assets/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+.row_container 
+{
+    display: flex;
+    flex-direction: row;
+  }
+
+#left
+{
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#middle
+{
+    width: 33.3%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: AnimeAce;
+    gap: 20px;  
+    color: #008080;
+}
+
+
+.anime_gif
+{
+    width: 30vw;
+    height: 20vw;
+    border-radius: 50px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.top_about
+{
+    font-family: AnimeAce;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center; 
+    color: #008080;
+    padding-top: 10%;
+}
+
+
+.top_about img
+{
+    width: 200px;
+    height: auto;
+}
+
+#right
+{
+    width: 33.33%;
+    float: right;
+    /* background-color: bisque; */
+    text-align: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+  }
+
+.headerPageTitle
+{
+    font-family: AnimeAce;
+    text-align: center;
+    font-size: 40px;
+    color: #008080;
+}
+
+.image_container 
+{
+    position: relative;
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50px;
+    object-fit: cover;
+    display: block;
+    transition: 1s;
+    align-items: center; 
+    justify-content: center; 
+}
+
+.image_container img 
+{
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.image_text
+{
+    position: absolute;
+    top: 0%; 
+    left: 0%; 
+    opacity: 0;
+    width: 100%;
+    height: 100%; 
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
+} 
+
+.image_text:hover
+{
+    opacity: 1;
+} 
+
+.image_text2
+{
+    font-family: AnimeAce;
+    color: white;
+    transform: translateY(20px);
+    transition: 1s;
+}
+
